@@ -1,0 +1,368 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jskherman/imprecv/main/cv.typ.schema.json
+
+personal:
+  name: Hojayfa Rahman
+  email: hojayfarahman@gmail.com
+  phone: (+880) 1688784512
+  url: https://hojayfa.dev
+  titles:
+    - Software Engineer
+    - Technical Consultant
+    - AI & Agentic Developer
+  location:
+    city: Dhanmondi
+    region: Dhaka
+    country: Bangladesh
+  profiles:
+    - network: LinkedIn
+      username: in/hrmasss
+      url: https://linkedin.com/in/hrmasss
+    - network: GitHub
+      username: hrmasss
+      url: https://github.com/hrmasss
+
+  summary: "Software Engineer and Technical Consultant focused on building agentic AI and automation solutions — from LLM-powered workflows and RAG systems to scalable backend platforms. My work combines hands-on engineering with R&D and market analysis, allowing me to design solutions that are not only technically sound but also aligned with real-world needs and opportunities. Passionate about transforming ideas into production-ready systems, I thrive at the intersection of AI research, software engineering, and business impact."
+
+work:
+  - organization: SoftStandard Solutions
+    url: https://softstandard.com/
+    location: Hybrid - Dhaka, Bangladesh
+    positions:
+      - position: Full Stack Software Engineer
+        startDate: 2025-06-01
+        endDate: "present"
+        highlights:
+          - "Architected and deployed enterprise-scale AI/agentic SaaS solutions using LangChain/LangGraph, handling 1000+ concurrent users"
+          - "Built robust LLM orchestration pipelines with GPT and Gemini models, implementing advanced RAG systems for knowledge retrieval"
+          - "Developed high-performance REST APIs using FastAPI and Django REST Framework, serving 10,000+ requests daily"
+          - "Designed multi-tenant architecture with PostgreSQL and MongoDB, ensuring data isolation and 99.9% uptime"
+          - "Implemented comprehensive testing strategies using Playwright, Vitest, and Pytest, achieving 95% code coverage"
+          - "Optimized application performance and cost efficiency, reducing infrastructure costs by 30% through strategic caching with Redis"
+  # - organization: Quicteq
+  #   url: https://www.quicteq.com/
+  #   location: Remote
+  #   positions:
+  #     - position: Product & Solutions Lead
+  #       startDate: 2025-07-01
+  #       endDate: "present"
+  #       highlights:
+  #         - "Leading end-to-end product strategy and solutions development with focus on performance optimization and user experience"
+  #         - "Driving product innovation through market analysis and stakeholder management, increasing client satisfaction by 40%"
+  #         - "Orchestrating cross-functional teams and managing project lifecycles using Agile methodologies"
+  #         - "Leveraging data analytics with Power BI and Google Analytics to inform strategic product decisions"
+  - organization: Humana Apparels (Ha-Meem Group)
+    url: http://humanaapparels.com/
+    location: Hybrid - Tangail, Bangladesh
+    positions:
+      - position: Technical Consultant
+        startDate: 2025-01-01
+        endDate: "present"
+        location: Hybrid
+        highlights:
+          - "Retained as external consultant to advise on system architecture and deliver targeted performance optimizations"
+          - "Implemented infrastructure improvements using Proxmox, Windows Server, and Hyper-V virtualization technologies"
+          - "Provided technical guidance on Django REST Framework best practices and database optimization strategies"
+      - position: Software Engineer
+        startDate: 2025-01-01
+        endDate: 2025-06-01
+        location: Onsite - Mirzapur, Tangail
+        highlights:
+          - "Developed internal tracking and automation tools, reducing manual processes by 60%"
+          - "Built comprehensive infrastructure solutions and system integrations for production environment"
+          - "Created full-stack applications using Django REST Framework and Next.js with TypeScript"
+          - "Implemented automated workflows and CI/CD pipelines using GitHub Actions and Docker"
+          - "Managed enterprise infrastructure including Active Directory, Linux servers, and network configurations"
+  - organization: RAKTCH
+    url: https://www.raktch.com/
+    location: Onsite - Dhaka, Bangladesh
+    positions:
+      - position: Jr. Software Engineer
+        startDate: 2024-09-01
+        endDate: 2025-01-01
+        highlights:
+          - "Implemented end-to-end features using Django REST Framework and PostgreSQL, improving application performance by 25%"
+          - "Optimized API integrations and enhanced UI performance using Next.js and React Query for efficient data management"
+          - "Collaborated on testing strategies using Pytest and participated in code reviews to maintain high-quality standards"
+  - organization: ZenithXTech
+    url: https://www.zenithx.tech
+    location: Hybrid - Dhaka, Bangladesh
+    positions:
+      - position: Full Stack Web Developer
+        startDate: 2023-11-01
+        endDate: 2024-07-01
+        highlights:
+          - "Developed high-performance web applications using Next.js, TypeScript, and tRPC for type-safe API communication"
+          - "Built scalable backend solutions with Django MVC architecture and implemented secure payment processing with Stripe"
+          - "Created fast static sites using Astro framework and enhanced user experiences with React and Tailwind CSS"
+          - "Deployed containerized applications using Docker and managed database operations with Prisma ORM"
+
+education:
+  - institution: Daffodil International University
+    area: Software Engineering
+    studyType: Bachelor of Science
+    startDate: 2020-09-01
+    endDate: 2024-06-01
+    location: Ashuliya, Savar, Bangladesh
+    url: https://daffodilvarsity.edu.bd
+    courses:
+      - "Data Structures & Algorithms"
+      - "Machine Learning"
+      - "Computer Networks"
+      - "Object Oriented Programming"
+      - "Design Patterns"
+      - "Database Management Systems"
+      - "Operating Systems"
+      - "Software Engineering"
+      - "Web Development"
+    honors:
+      - "CGPA: 3.71/4.00"
+    highlights:
+      - "Completed comprehensive software engineering curriculum with focus on modern development practices"
+      - "Specialized in full-stack development, software design patterns, and system architecture"
+  - institution: Government Science College
+    area: Science
+    studyType: Higher Secondary Certificate
+    startDate: 2018-06-01
+    endDate: 2020-05-01
+    location: Dhaka, Bangladesh
+    url: ""
+    courses:
+      - "Mathematics"
+      - "Physics"
+      - "Chemistry"
+      - "Biology"
+      - "Information & Communication Technology"
+    honors:
+      - "GPA: 4.33/5.00"
+    highlights:
+      - "Focused on mathematics, physics, and computer science fundamentals"
+
+affiliations: []
+
+awards: []
+
+certificates: []
+
+publications: []
+
+projects:
+  - name: "AI Marketing SaaS Platform"
+    url: https://www.hojayfa.dev
+    affiliation: SoftStandard Solutions
+    startDate: 2025-06-01
+    endDate: "present"
+    highlights:
+      - "Developed comprehensive AI-powered marketing automation platform that handles all marketing tasks automatically"
+      - "Implemented intelligent goal-based system where users simply connect accounts and specify objectives"
+      - "Built sophisticated LLM orchestration using LangChain and LangGraph for content generation and campaign optimization"
+      - "Architected scalable backend with FastAPI and Django REST Framework, integrated with Redis and Celery for task management"
+  - name: "AI Lead Discovery & Validation Pipeline"
+    url: https://www.hojayfa.dev
+    affiliation: SoftStandard Solutions
+    startDate: 2025-06-01
+    endDate: "present"
+    highlights:
+      - "Engineered advanced AI/agentic pipeline for automated lead discovery and email inference with 95% accuracy"
+      - "Implemented sophisticated validation mechanisms using machine learning models and web scraping techniques"
+      - "Built real-time processing system using LangChain, Redis, and Celery for handling large-scale lead generation"
+      - "Developed RESTful APIs with FastAPI and Django REST Framework for seamless integration with CRM systems"
+  - name: "Production Tracking & Analytics System"
+    url: https://www.hojayfa.dev
+    affiliation: Humana Apparels
+    startDate: 2025-01-01
+    endDate: 2025-06-01
+    highlights:
+      - "Designed comprehensive production monitoring system tracking bottlenecks, quality metrics, and throughput in real-time"
+      - "Implemented hardware integration solutions connecting industrial sensors and IoT devices to centralized dashboard"
+      - "Built robust infrastructure architecture managing data flow from factory floor to executive dashboards"
+      - "Developed predictive analytics features identifying production issues before they impact delivery schedules"
+  - name: "Order Completion MIS & Supply Chain Optimization"
+    url: https://www.hojayfa.dev
+    affiliation: Humana Apparels
+    startDate: 2025-01-01
+    endDate: 2025-06-01
+    highlights:
+      - "Created end-to-end order tracking system consolidating raw materials procurement and reducing manual labor by 70%"
+      - "Implemented intelligent consolidation algorithms achieving 25% better pricing through optimized bulk ordering"
+      - "Built real-time status transparency system providing complete visibility across supply chain stakeholders"
+      - "Developed warehouse optimization features enabling just-in-time ordering and reducing storage costs by 30%"
+  - name: "Micro Investment Platform"
+    url: https://www.hojayfa.dev
+    affiliation: RAKTCH
+    startDate: 2024-09-01
+    endDate: 2025-01-01
+    highlights:
+      - "Developed fractional investment platform enabling users to invest in premium assets with minimal capital"
+      - "Implemented distributed investment algorithms allowing micro-investments in real estate, commodities, and collectibles"
+      - "Built secure transaction processing system with blockchain integration ensuring transparent asset ownership"
+      - "Created user-friendly interface with real-time portfolio tracking and automated diversification recommendations"
+  - name: "Educational Marketplace Platform"
+    url: https://www.hojayfa.dev
+    affiliation: RAKTCH
+    startDate: 2024-09-01
+    endDate: 2025-01-01
+    highlights:
+      - "Built comprehensive platform connecting educators and students through intelligent matching algorithms"
+      - "Implemented AI-powered recommendation system analyzing teaching styles, learning preferences, and performance data"
+      - "Developed integrated scheduling, payment processing, and progress tracking systems for seamless user experience"
+      - "Created review and rating systems with fraud detection ensuring authentic feedback and quality assurance"
+  - name: "E-commerce & Marketplace Solutions"
+    url: https://www.hojayfa.dev
+    affiliation: ZenithXTech
+    startDate: 2023-11-01
+    endDate: 2024-07-01
+    highlights:
+      - "Developed scalable e-commerce platform with advanced inventory management and multi-vendor support"
+      - "Built comprehensive product catalog system with intelligent search, filtering, and recommendation engines"
+      - "Implemented secure payment gateway integration supporting multiple payment methods and currencies"
+      - "Created responsive frontend using Next.js and TypeScript ensuring optimal performance across all devices"
+  - name: "Dropshipping Management Platform"
+    url: https://www.hojayfa.dev
+    affiliation: ZenithXTech
+    startDate: 2023-11-01
+    endDate: 2024-07-01
+    highlights:
+      - "Engineered automated dropshipping platform connecting suppliers, sellers, and customers seamlessly"
+      - "Implemented real-time inventory synchronization preventing overselling and ensuring accurate stock levels"
+      - "Built automated order routing system optimizing supplier selection based on location, pricing, and reliability"
+      - "Developed comprehensive analytics dashboard providing insights into sales performance and market trends"
+  - name: "Human Resource Management System"
+    url: https://www.hojayfa.dev
+    affiliation: ZenithXTech
+    startDate: 2023-11-01
+    endDate: 2024-07-01
+    highlights:
+      - "Created comprehensive HRM platform managing employee lifecycle from recruitment to retirement"
+      - "Implemented automated payroll processing, leave management, and performance evaluation systems"
+      - "Built role-based access control system ensuring data security and compliance with labor regulations"
+      - "Developed employee self-service portal reducing HR workload and improving employee satisfaction"
+  - name: "Educational Institution Management Portal"
+    url: https://www.hojayfa.dev
+    affiliation: ZenithXTech
+    startDate: 2023-11-01
+    endDate: 2024-07-01
+    highlights:
+      - "Developed complete institutional portal managing exam registration, admit card generation, and fee collection"
+      - "Built automated admit card distribution system with SMS and email notifications reducing manual processing"
+      - "Implemented secure student portal with grade tracking, course materials, and communication features"
+      - "Created content management system for institutional blog, gallery, and news publication"
+  - name: "Automotive Point of Sale System"
+    url: https://www.hojayfa.dev
+    affiliation: ZenithXTech
+    startDate: 2023-11-01
+    endDate: 2024-07-01
+    highlights:
+      - "Built specialized POS system for automotive sales with complex inventory management and pricing structures"
+      - "Implemented vehicle specification tracking, warranty management, and service scheduling integration"
+      - "Developed commission calculation system for sales teams with multi-tier incentive structures"
+      - "Created comprehensive reporting system providing insights into sales performance and inventory turnover"
+
+skills:
+  - category: AI & Machine Learning
+    skills:
+      - LangChain
+      - LangGraph
+      - OpenAI GPT
+      - Google Gemini
+      - Retrieval-Augmented Generation (RAG)
+      - Vector Databases
+      - Large Language Models (LLMs)
+      - AI Agent Development
+      - Natural Language Processing
+  - category: Backend Development
+    skills:
+      - FastAPI
+      - Django REST Framework (DRF)
+      - Django
+      - Node.js
+      - Express.js
+      - Python
+      - TypeScript
+      - REST APIs
+      - GraphQL
+      - tRPC
+      - Pydantic
+      - Celery
+      - Redis
+  - category: Frontend Development
+    skills:
+      - Next.js
+      - React
+      - TypeScript
+      - T3 Stack
+      - Tailwind CSS
+      - React Query
+      - Zustand
+      - HTMX
+      - Astro
+      - JavaScript
+      - Zod
+  - category: Database & Cloud
+    skills:
+      - PostgreSQL
+      - MongoDB
+      - Prisma ORM
+      - Database Optimization
+      - Multi-tenant Architecture
+      - Cloud Infrastructure
+      - Performance Tuning
+      - Data Analytics
+  - category: DevOps & Testing
+    skills:
+      - Docker
+      - Docker Compose
+      - GitHub Actions
+      - CI/CD Pipelines
+      - Playwright
+      - Pytest
+      - Vitest
+      - Git
+      - Linux
+      - Shell Scripting
+      - Infrastructure Management
+  - category: Enterprise & Infrastructure
+    skills:
+      - Proxmox
+      - Windows Server
+      - Hyper-V
+      - Active Directory
+      - OpenWrt
+      - Network Configuration
+      - System Administration
+      - Performance Optimization
+  - category: Data Analysis & Business Intelligence
+    skills:
+      - Power BI
+      - Google Analytics
+      - NumPy
+      - Pandas
+      - Jupyter Notebook
+      - Data Visualization
+      - Market Analysis
+      - Performance Metrics
+  - category: Project Management & Soft Skills
+    skills:
+      - Agile Methodologies
+      - Project Orchestration
+      - Stakeholder Management
+      - Technical Leadership
+      - Cross-functional Collaboration
+      - Client Management
+      - Problem Solving
+      - System Architecture Design
+
+languages:
+  - language: English
+    fluency: Professional Proficiency
+  - language: Bangla
+    fluency: Native Speaker
+
+interests:
+  - Traveling and exploring new cultures
+  - Experimenting with cutting-edge technologies
+  - Tinkering with hardware and software systems
+  - Pet care and animal welfare (particularly ducks and cats)
+  - Innovative farming techniques (aeroponic and hydroponic systems)
+  - IoT and home automation projects
+
+references: []
