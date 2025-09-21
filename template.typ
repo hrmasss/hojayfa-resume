@@ -29,25 +29,26 @@
   // Helper function to clean URLs
   let clean_url(url) = url.replace("https://", "").replace("http://", "")
 
-  // Build contact info array
+  // Build contact info array with proper hyperlinks
   let contact_items = ()
 
   if "email" in cvdata.personal {
-    contact_items.push(cvdata.personal.email)
+    contact_items.push(link("mailto:" + cvdata.personal.email)[#cvdata.personal.email])
   }
 
   if uservars.showNumber and "phone" in cvdata.personal {
-    contact_items.push(cvdata.personal.phone)
+    let clean_phone = cvdata.personal.phone.replace("(", "").replace(")", "").replace(" ", "").replace("-", "")
+    contact_items.push(link("tel:" + clean_phone)[#cvdata.personal.phone])
   }
 
   if "url" in cvdata.personal {
-    contact_items.push(clean_url(cvdata.personal.url))
+    contact_items.push(link(cvdata.personal.url)[#clean_url(cvdata.personal.url)])
   }
 
   if "profiles" in cvdata.personal {
     for profile in cvdata.personal.profiles {
       if profile.network in ("LinkedIn", "GitHub") {
-        contact_items.push(clean_url(profile.url))
+        contact_items.push(link(profile.url)[#clean_url(profile.url)])
       }
     }
   }
